@@ -11,12 +11,12 @@ function add(numbers) {
     else
     {
        var sum = 0;
-       var array = numbers.split(",");
+       var array = numbers.split(/[,\n]/);
        var arrayLength = array.length;
 
        for(var i = 0; i < arrayLength; i++)
        {
-            sum = sum + parseInt(array[i]);
+            sum = sum + parseInt(array[i]); // ParseInt : converts a string to an integer.
        }
        return sum;
     }

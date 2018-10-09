@@ -13,3 +13,7 @@ test("returns the number inputted if it was only a single number", () => {
 test("returns the number inputted if it was only a single number", () => { 
     expect(add("5, 8")).toBe(13);
 });
+
+test("returns the number inputted if it was only a single number", () => { 
+    expect(add("1\n2,3")).toBe(6);
+});
