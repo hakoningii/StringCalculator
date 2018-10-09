@@ -21,7 +21,10 @@ function add(numbers) {
         {
             negatives[i] = array[i];
         }
+        else if(parseInt(array[i]) <= 1000)
+        {
             sum = sum + parseInt(array[i]); // ParseInt : converts a string to an integer.
+        }
        }
        if(negatives.length > 0)
        {
