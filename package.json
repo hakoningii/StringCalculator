@@ -1,0 +1,22 @@
+{
+  "name": "stringcalculator",
+  "version": "1.0.0",
+  "description": "Hugbunaðarfræði TDD",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakoningii/StringCalculator.git"
+  },
+  "author": "Hákon Ingi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hakoningii/StringCalculator/issues"
+  },
+  "homepage": "https://github.com/hakoningii/StringCalculator#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
