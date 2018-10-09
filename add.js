@@ -11,7 +11,7 @@ function add(numbers) {
     else
     {
        var sum = 0;
-       var array = numbers.split(/[,\n]/);
+       var array = numbers.split(/[,\n ;]/);
        var arrayLength = array.length;
        var negatives = [];
  

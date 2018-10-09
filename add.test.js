@@ -25,3 +25,7 @@ test("Calling Add with a negative number will throw an exception “Negatives no
 test("Ignoring numbers bigger the 1000", () => { 
     expect(add("1002, 2, 3, 12341")).toBe(5);
 });
+
+test("The Add method now handles a different delimiter", () => { 
+    expect(add("//;\n1;2")).toBe(3);
+});
